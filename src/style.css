@@ -1,0 +1,86 @@
+p{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Erica{
+    height: 50vh;
+    width: 100%;
+    background-image: url(../images/SPA\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.logo{
+    color: blue;
+    font-size: 28px;
+}
+span{
+    color: white;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 30px 40px;
+    background-color: aquamarine;
+}
+nav ul li a{
+    color: rgb(234, 13, 145);
+    text-decoration: none;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    color: blue;
+    transition: .3s;
+    cursor: pointer;
+}
+.EriNiCelcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.EriNiCelimg{
+    width: 100%;
+    height: 300px;
+}
+.EriNiCel{
+    width: 30%;
+    border: 3px solid grey;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.EriNiCelaboutus{
+    display: flex;
+    gap: 10px;
+}
+.EriNiCelservices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.serviceimg1{
+   width: 100%;
+   height: 80%;
+   /* border: 3px solid grey; */
+   /* border-radius: 10px; */
+   /* margin-bottom: 30px; */
+}
+.serviceinfo{
+    border: 3px solid black;
+    width: 16%;
+    height: 80%;
+}
+.EriNiCeledu{
+    display: flex;
+}
